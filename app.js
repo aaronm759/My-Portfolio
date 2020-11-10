@@ -6,3 +6,4 @@ function close() {
 }
 document.getElementById('contact').addEventListener("click", popUp);
 document.getElementById('popup').addEventListener("click", close)
+//it worked
