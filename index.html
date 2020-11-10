@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h3 class="nav" id="contact">Contact</h3>
+        <h3 class="nav">Resume</h3>
+        <h3 class="nav">Git</h3>
+        <h3 class="nav">LinkedIn</h3>
+    </header>
+    <div id="popup">
+        <p>Email: amcfarlin75@gmail.com</p>
+        <p>Phone: 732-882-9663</p>
+    </div>
+    <div class="homebox">
+        <div class="block"></div>
+        <div class="name" id="first">
+            <h1>Aaron</h1>
+        </div>
+        <div class="name" id="last">
+            <h1>McFarlin</h1>
+        </div>
+
+    </div>
+    <div class="homebox2" data-aos="fade-down" data-aos-duration="2000">
+        <h2>Jr. Developer</h2>
+    </div>
+    <div data-aos="fade-down" data-aos-delay="300" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
+        <a href="projects.html">
+            <button>View Projects</button>
+        </a>
+    </div>
+    <div class="rectangle" data-aos="fade-up-left" data-aos-duration="2000">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+    </div>
+    <div class="homebox3" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+        <div class="summary">
+            <h2 class="stitle">About</h2>
+            <p class="sumtext">I am looking to begin my journey in tech. I hope to have a hand in developing software
+                that is unique,
+                innovative, and useful. My skill with front end languages (HTML + CSS), back end languages (Javascript)
+                and server side (node.js) allows me to contribute in many different ways. </p>
+        </div>
+    </div>
+    <div class="homebox4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+        <div class="skills">
+            <h2 class="sktitle">Skills</h2>
+            <ul class="skilllist">
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- mobile html-->
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: 'mobile'
+        });
+    </script>
+</body>
+
+</html>
