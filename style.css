@@ -180,6 +180,18 @@ button {
     z-index: 1;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.view {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+    font-size: 1.3em;
+}
+
 .pbox2 {
     display: flex;
     justify-content: space-between;
@@ -210,6 +222,7 @@ h4 {
 h5 {
     font-size: 2em;
     text-align: center;
+    margin-bottom: 3vh;
 }
 
 /*------mobile styling------------*/
@@ -334,10 +347,10 @@ h5 {
         left: 5vw;
         width: 70vw;
         height: 25vh;
-        font-size: 2em;
+        font-size: 1.2em;
     }
     .tech {
-        font-size: 2em;
+        font-size: 1.3em;
         width: 40vw;
         position: relative;
         left: 15vw;
