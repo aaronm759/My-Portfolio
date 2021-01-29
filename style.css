@@ -7,13 +7,13 @@ body {
 
 header {
     position: absolute;
-    left: 0vw;
+    left: 75vw;
     top: 0vh;
     display: flex;
     justify-content: space-around;
     font-size: .4em;
     height: 6vh;
-    width: 100vw;
+    width: 25vw;
 }
 
 .nav {
